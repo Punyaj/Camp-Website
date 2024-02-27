@@ -73,8 +73,9 @@ p{
 ****************/
 
 nav{
-	background-color:#174A45;
-	z-index: 5;
+	background-color:#000000;
+	z-index: 100000000000000;
+	position: relative;
 }
 
 /* Navbar */
@@ -132,7 +133,7 @@ nav{
 }
 
 .navbar-custom{
-	background-color: #174A45;
+	background-color: #022b27;
 	border: 0;
 	margin-bottom: 0;
 }
