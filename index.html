@@ -142,15 +142,12 @@
         <section class="banner" id="banner">
 
             <div class="content">
-                <br>
                 <h3 style="font-size: 8rem;">MEET AND GREET</h3>
                 </h3>
                 <p>State Level Resedential Camp for SHE</p>
-                <br>
                 <form method="get" action="images/SHE State Level Launch Broshure.pdf">
                     <button type="submit" href="#" class="btn">Download Brochure</button>
                 </form>
-                <br>
             </div>
 
         </section>
@@ -327,7 +324,68 @@
             }
 
 
+/* Media Queries for Tablet Devices */
+@media only screen and (max-width: 768px) {
+    .grid5 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        height: 70vh;
+    }
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 480px) {
+    .grid5 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        height: 120vh;
+    }
+}
             
+/* Media Queries for Tablet Devices */
+@media only screen and (max-width: 768px) {
+    .banner {
+        min-height: 70vh;
+    }
+
+    .above-collage {
+        height: 30vh;
+    }
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 480px) {
+    .banner {
+        min-height: 50vh;
+    }
+
+    .above-collage {
+        height: 20vh;
+    }
+}
+
+/* Media Queries for Tablet Devices */
+@media only screen and (max-width: 768px) {
+    .banner .content h3 {
+        font-size: 3rem; /* Adjust as needed */
+    }
+
+    .banner .content p {
+        font-size: 1.5rem; /* Adjust as needed */
+    }
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 480px) {
+    .banner .content h3 {
+        font-size: 1.5rem; /* Adjust as needed */
+    }
+
+    .banner .content p {
+        font-size: 1rem; /* Adjust as needed */
+    }
+}
+
 
         </style>
 
