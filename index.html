@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meet and Greet</title>
     <link rel="icon" type="image/png" href="././img/logo.png">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
@@ -135,7 +135,7 @@
             </div>
         </div>
 
-        <div class="above-collage" style="background-color: rgba(0, 0, 0, 0.317);">
+        <div class="above-collage" style="background-color: rgba(10, 11, 11, 0.317);">
 
         </div>
 
@@ -325,6 +325,10 @@
                 grid-column: 6/8;
                 grid-row: 1/6;
             }
+
+
+            
+
         </style>
 
 
@@ -836,6 +840,8 @@
                     transform: translate3d(85px, 0, 0)
                 }
             }
+
+            
         </style>
 
 
@@ -949,6 +955,24 @@
                 line-height: 26px;
                 padding-bottom: 15px;
             }
+
+            /* Media Queries for Tablet Devices */
+@media only screen and (max-width: 768px) {
+    .row1 {
+        grid-template-columns: 1fr;
+    }
+
+    .row1 .right1 {
+        margin-top: 20px;
+    }
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 480px) {
+    .row1 .left1 .content1 {
+        padding-left: 0;
+    }
+}
         </style>
 
 
